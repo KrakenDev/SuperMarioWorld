@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D72A2581E5F196300024555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2571E5F196300024555 /* AppDelegate.swift */; };
+		5D72A2631E5F196300024555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72A2611E5F196300024555 /* Main.storyboard */; };
+		5D72A2651E5F196300024555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D72A2641E5F196300024555 /* Assets.xcassets */; };
+		5D72A2681E5F196300024555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D72A2661E5F196300024555 /* LaunchScreen.storyboard */; };
+		5D72A2761E5F19BE00024555 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A26F1E5F19BE00024555 /* GameScene.swift */; };
+		5D72A2771E5F19BE00024555 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2701E5F19BE00024555 /* GameViewController.swift */; };
+		5D72A2781E5F19BE00024555 /* GameNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2711E5F19BE00024555 /* GameNode.swift */; };
+		5D72A2791E5F19BE00024555 /* SpriteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2721E5F19BE00024555 /* SpriteType.swift */; };
+		5D72A27A1E5F19BE00024555 /* Mario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2731E5F19BE00024555 /* Mario.swift */; };
+		5D72A27B1E5F19BE00024555 /* Feather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2741E5F19BE00024555 /* Feather.swift */; };
+		5D72A27C1E5F19BE00024555 /* CoinBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D72A2751E5F19BE00024555 /* CoinBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D72A2541E5F196300024555 /* SuperMarioWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMarioWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D72A2571E5F196300024555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D72A2621E5F196300024555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D72A2641E5F196300024555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D72A2671E5F196300024555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D72A2691E5F196300024555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D72A26F1E5F19BE00024555 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5D72A2701E5F19BE00024555 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5D72A2711E5F19BE00024555 /* GameNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNode.swift; sourceTree = "<group>"; };
+		5D72A2721E5F19BE00024555 /* SpriteType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteType.swift; sourceTree = "<group>"; };
+		5D72A2731E5F19BE00024555 /* Mario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mario.swift; sourceTree = "<group>"; };
+		5D72A2741E5F19BE00024555 /* Feather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feather.swift; sourceTree = "<group>"; };
+		5D72A2751E5F19BE00024555 /* CoinBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D72A2511E5F196300024555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D72A24B1E5F196300024555 = {
+			isa = PBXGroup;
+			children = (
+				5D72A2561E5F196300024555 /* SuperMarioWorld */,
+				5D72A2551E5F196300024555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D72A2551E5F196300024555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D72A2541E5F196300024555 /* SuperMarioWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D72A2561E5F196300024555 /* SuperMarioWorld */ = {
+			isa = PBXGroup;
+			children = (
+				5D72A2571E5F196300024555 /* AppDelegate.swift */,
+				5D72A26F1E5F19BE00024555 /* GameScene.swift */,
+				5D72A2701E5F19BE00024555 /* GameViewController.swift */,
+				5D72A2711E5F19BE00024555 /* GameNode.swift */,
+				5D72A2721E5F19BE00024555 /* SpriteType.swift */,
+				5D72A2731E5F19BE00024555 /* Mario.swift */,
+				5D72A2741E5F19BE00024555 /* Feather.swift */,
+				5D72A2751E5F19BE00024555 /* CoinBox.swift */,
+				5D72A2611E5F196300024555 /* Main.storyboard */,
+				5D72A2641E5F196300024555 /* Assets.xcassets */,
+				5D72A2661E5F196300024555 /* LaunchScreen.storyboard */,
+				5D72A2691E5F196300024555 /* Info.plist */,
+			);
+			path = SuperMarioWorld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D72A2531E5F196300024555 /* SuperMarioWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D72A26C1E5F196300024555 /* Build configuration list for PBXNativeTarget "SuperMarioWorld" */;
+			buildPhases = (
+				5D72A2501E5F196300024555 /* Sources */,
+				5D72A2511E5F196300024555 /* Frameworks */,
+				5D72A2521E5F196300024555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMarioWorld;
+			productName = SuperMarioWorld;
+			productReference = 5D72A2541E5F196300024555 /* SuperMarioWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D72A24C1E5F196300024555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = krakendev;
+				TargetAttributes = {
+					5D72A2531E5F196300024555 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D72A24F1E5F196300024555 /* Build configuration list for PBXProject "SuperMarioWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D72A24B1E5F196300024555;
+			productRefGroup = 5D72A2551E5F196300024555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D72A2531E5F196300024555 /* SuperMarioWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D72A2521E5F196300024555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72A2631E5F196300024555 /* Main.storyboard in Resources */,
+				5D72A2651E5F196300024555 /* Assets.xcassets in Resources */,
+				5D72A2681E5F196300024555 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D72A2501E5F196300024555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D72A2761E5F19BE00024555 /* GameScene.swift in Sources */,
+				5D72A2781E5F19BE00024555 /* GameNode.swift in Sources */,
+				5D72A27C1E5F19BE00024555 /* CoinBox.swift in Sources */,
+				5D72A2771E5F19BE00024555 /* GameViewController.swift in Sources */,
+				5D72A27B1E5F19BE00024555 /* Feather.swift in Sources */,
+				5D72A2791E5F19BE00024555 /* SpriteType.swift in Sources */,
+				5D72A27A1E5F19BE00024555 /* Mario.swift in Sources */,
+				5D72A2581E5F196300024555 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D72A2611E5F196300024555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72A2621E5F196300024555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D72A2661E5F196300024555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D72A2671E5F196300024555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D72A26A1E5F196300024555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D72A26B1E5F196300024555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D72A26D1E5F196300024555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krakendev.SuperMarioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D72A26E1E5F196300024555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krakendev.SuperMarioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D72A24F1E5F196300024555 /* Build configuration list for PBXProject "SuperMarioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72A26A1E5F196300024555 /* Debug */,
+				5D72A26B1E5F196300024555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D72A26C1E5F196300024555 /* Build configuration list for PBXNativeTarget "SuperMarioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D72A26D1E5F196300024555 /* Debug */,
+				5D72A26E1E5F196300024555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D72A24C1E5F196300024555 /* Project object */;
+}
