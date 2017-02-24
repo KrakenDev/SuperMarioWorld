@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SuperMarioWorld
-//
-//  Created by Hector Matos on 2/24/17.
-//  Copyright © 2017 krakendev. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

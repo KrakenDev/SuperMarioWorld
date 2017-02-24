@@ -1,11 +1,3 @@
-//
-//  GameViewController.swift
-//  Super Ninja World
-//
-//  Created by Hector Matos on 2/27/16.
-//  Copyright (c) 2016 Hector Matos. All rights reserved.
-//
-
 import UIKit
 import SpriteKit
 
